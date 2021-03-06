@@ -1,0 +1,18 @@
+{
+    "name": ":vendor_name:/:package_name:",
+    "description": ":package_description:",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": ":author_name:",
+            "email": ":author_email:"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            ":vendor_namespace:\\:package_namespace:\\": "src/"
+        }
+    }
+}

@@ -1,9 +1,9 @@
-# Package Blueprint
+# :package_namespace:
 
-Blueprint for my laravel packages.
+:package_description:
 
-## Usage
+# Installation
 
 ```
-composer create-project --prefer-dist --no-install tjventurini/package-blueprint <your-package-name>
+composer require :vendor_name:/:package_name:
 ```
